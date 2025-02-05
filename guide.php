@@ -1,0 +1,54 @@
+<?php
+$dll_version = file_get_contents("supplementals/client drop-in/latest.txt");
+$version = json_decode(file_get_contents("supplementals/static data/buildConfig.json"), true)["version"];
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OpenWF Guide</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://calamity-inc.github.io/Silver/base.css">
+</head>
+<body>
+	<h1>OpenWF Guide</h1>
+	<h2>Client Installation</h2>
+	<p>To use OpenWF, you only need to download the <a href="/supplementals/client%20drop-in/<?=$dll_version;?>/dwmapi.dll" download>dwmapi.dll</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</p>
+	<ul>
+		<li>As long as this DLL is in the game folder, you can double-click Warframe.x64.exe to start the game with OpenWF.</li>
+		<li>Opening the game's launcher will revert it back to normal.</li>
+	</ul>
+	<p>By default, the DLL redirects requests to localhost — meaning the same machine you're playing on — so you'll either need to set up a server or change the server_host to point to a different machine that's already got a server running.</p>
+	<p>The DLL is <a href="bootstrapper-manual" target="_blank">fully documented here</a>, but I know you're not going to click that link and read that page, so just know that when the game is running, you can visit <a href="http://localhost:61558/" target="_blank">http://localhost:61558/</a> to manage options, cheats, and scripts.</p>
+	<h2>Server Prerequisites</h2>
+	<ul>
+		<li>Git (<a href="https://git-scm.com/downloads" target="_blank">Download</a>)</li>
+		<li>Node.js (<a href="https://nodejs.org/en/download" target="_blank">Download</a>)</li>
+		<li>MongoDB (<a href="https://www.mongodb.com/try/download/community" target="_blank">Download</a>)</li>
+	</ul>
+	<h2>Server Installation</h2>
+	<ol>
+		<li>Run <code>git clone https://openwf.io/SpaceNinjaServer.git</code> in a command prompt to download SpaceNinjaServer in the current working directory</li>
+		<li>Open the SpaceNinjaServer folder (<code>cd SpaceNinjaServer</code>)</li>
+		<li>Run <code>copy config.json.example config.json</code> to create a config.json from config.json.example</li>
+		<li>(Optional) Edit the config.json to match your MongoDB settings (if not default) and however else you would like to configure the server</li>
+		<!-- <li>Download <a href="/supplementals/static%20data/buildConfig.json" download>buildConfig.json</a> and <a href="/supplementals/static%20data/H.Cache_<?=$version;?>.bin" download>H.Cache_<?=$version;?>.bin</a> and put them in the server's <code>static/data</code> folder</li> -->
+		<li>(Optional) If you want stripped assets (~622 <abbr title="mebibytes (1 MiB = 1048576 bytes)">MiB</abbr>) which the client will request from the server on-demand (most notably, <abbr title="Ability videos show a brief clip of an ability in action. They can be seen by hovering over an ability in the Arsenal, Codex, etc.">ability videos</abbr>), run <code>git clone https://openwf.io/0.git</code> in the <code>static/data</code> folder</li>
+		<li>Run <code>npm i</code> (or <code>npm install</code>) to install library dependencies</li>
+		<li>Now, to start the server, run <code>npm run dev</code> (if this is too slow on your machine, you can use <code>npm run build</code> followed by <code>npm run start</code>)</li>
+	</ol>
+	<h2>Server Update</h2>
+	<!-- <p>Windows users can simply double-click the <code>UPDATE AND START SERVER.bat</code>, but otherwise the steps are pretty simple:</p> -->
+	<ol>
+		<!-- <li>For game updates, ensure the <code>static/data</code> folder has the latest <a href="/supplementals/static%20data/buildConfig.json" download>buildConfig.json</a> and cache (<a href="/supplementals/static%20data/H.Cache_<?=$version;?>.bin" download>H.Cache_<?=$version;?>.bin</a>)</li> -->
+		<li>
+			Run <code>git pull</code> in the SpaceNinjaServer folder
+			<ul>
+				<li>You may see an error if you cloned SpaceNinjaServer from GitHub — to fix this, run <code>git config remote.origin.url https://openwf.io/SpaceNinjaServer.git</code></li>
+			</ul>
+		</li>
+		<li>(Optional) If you have the stripped assets, run <code>git pull</code> in the <code>static/data/0</code> folder</li>
+		<li>Run <code>npm i</code> (or <code>npm install</code>) to synchronize library dependencies</li>
+		<li>Now to start the server again, run <code>npm run dev</code> (if this is too slow on your machine, you can use <code>npm run build</code> followed by <code>npm run start</code>)</li>
+	</ol>
+</body>
+</html>
