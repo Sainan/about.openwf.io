@@ -10,21 +10,7 @@ $dll_version = @file_get_contents("supplementals/client drop-in/latest.txt");
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body data-bs-theme="dark">
-	<nav class="navbar bg-body-tertiary">
-		<div class="container">
-			<a class="navbar-brand" href="/">OpenWF</a>
-			<ul class="navbar-nav me-auto mb-0">
-				<li class="nav-item">
-					<a class="nav-link active" href="#">Guide</a>
-				</li>
-			</ul>
-			<ul class="navbar-nav ms-auto mb-0">
-				<li class="nav-item">
-					<a class="nav-link" href="https://discord.gg/PNNZ3asUuY" target="_blank">Discord</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
 		<h2>Client/Boostrapper Installation</h3>
 		<p>To use OpenWF, you only need to download the <a href="/supplementals/client%20drop-in/<?=$dll_version;?>/dwmapi.dll" download>dwmapi.dll</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</p>
@@ -66,5 +52,6 @@ $dll_version = @file_get_contents("supplementals/client drop-in/latest.txt");
 			<li>Now to start the server again, run <code>npm run dev</code> (if this is too slow on your machine, you can use <code>npm run build</code> followed by <code>npm run start</code>)</li>
 		</ol>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
