@@ -38,15 +38,10 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 			<li>Now, to start the server, run <code>npm run dev</code> (if this is too slow on your machine, you can use <code>npm run build</code> followed by <code>npm run start</code>)</li>
 		</ol>
 		<h2>Server Update</h2>
-		<!-- <p>Windows users can simply double-click the <code>UPDATE AND START SERVER.bat</code>, but otherwise the steps are pretty simple:</p> -->
+		<p>Windows users can simply double-click the <code>UPDATE AND START SERVER.bat</code>, but otherwise the steps are pretty simple:</p>
 		<ol>
 			<!-- <li>For game updates, ensure the <code>static/data</code> folder has the latest <a href="/supplementals/static%20data/buildConfig.json" download>buildConfig.json</a> and cache (<a href="/supplementals/static%20data/H.Cache_<?=$version;?>.bin" download>H.Cache_<?=$version;?>.bin</a>)</li> -->
-			<li>
-				Run <code>git pull</code> in the SpaceNinjaServer folder
-				<ul>
-					<li>You may see an error if you cloned SpaceNinjaServer from GitHub — to fix this, run <code>git config remote.origin.url https://openwf.io/SpaceNinjaServer.git</code></li>
-				</ul>
-			</li>
+			<li>Run <code>git pull</code> in the SpaceNinjaServer folder</li>
 			<li>(Optional) If you have the stripped assets, run <code>git pull</code> in the <code>static/data/0</code> folder</li>
 			<li>Run <code>npm i</code> (or <code>npm install</code>) to synchronize library dependencies</li>
 			<li>Now to start the server again, run <code>npm run dev</code> (if this is too slow on your machine, you can use <code>npm run build</code> followed by <code>npm run start</code>)</li>
