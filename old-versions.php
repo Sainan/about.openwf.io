@@ -36,7 +36,11 @@
 					<td>The Lotus Eaters: Hotfix 36.1.2</td>
 					<td>8111233839173446959</td>
 				</tr>
-				<!-- 7104716125379362906 -->
+				<tr>
+					<td><code>2024.07.17.17.07</code></td>
+					<td>Jade Shadows: Hotfix 36.0.7</td>
+					<td>7104716125379362906</td>
+				</tr>
 				<tr>
 					<td><code>2024.06.25.16.44</code></td>
 					<td>Jade Shadows: Hotfix 36.0.4</td>
