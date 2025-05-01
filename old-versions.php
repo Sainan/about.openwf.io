@@ -19,6 +19,8 @@
 				</tr>
 			</thead>
 			<tbody>
+				<!-- 4212893560910494140 (38.5.0?) -->
+				<!-- 3864063200081954630 (38.0.0?) -->
 				<tr>
 					<td><code>2024.10.11.10.06</code></td>
 					<td>Koumei & the Five Fates: Hotfix 37.0.6</td>
@@ -28,6 +30,68 @@
 					<td><code>2024.09.30.16.56</code></td>
 					<td>Early build of Koumei & the Five Fates</td>
 					<td>2655930801276651913</td>
+				</tr>
+				<tr>
+					<td><code>2024.08.21.20.02</code></td>
+					<td>The Lotus Eaters: Hotfix 36.1.2</td>
+					<td>8111233839173446959</td>
+				</tr>
+				<!-- 7104716125379362906 -->
+				<tr>
+					<td><code>2024.06.25.16.44</code></td>
+					<td>Jade Shadows: Hotfix 36.0.4</td>
+					<td>8456987056335242580</td>
+				</tr>
+				<tr>
+					<td><code>2024.06.12.18.42</code></td>
+					<td>Early build of Jade Shadows</td>
+					<td>8444137865636064549</td>
+				</tr>
+				<tr>
+					<td><code>2024.03.24.20.00</code></td>
+					<td>Update 35.5: Dante Unbound</td>
+					<td>4262681179882731333</td>
+				</tr>
+				<tr>
+					<td><code>2024.02.16.17.13</code></td>
+					<td>Whispers in the Walls: Update 35.1.0</td>
+					<td>3417254152679980994</td>
+				</tr>
+				<!-- Also verified that 34.0.8 works, but sadly there's no manifest id for any of U34.-->
+				<!-- Beyond this point, there is no information to help correlate the build labels, so I'm just writing whatever title I see on the login screen. -->
+				<tr>
+					<td><code>2023.07.26.16.38</code></td>
+					<td><!-- Update 33.6: -->Echoes of Duviri</td>
+					<td>4487452668036984689</td>
+				</tr>
+				<tr>
+					<td><code>2023.06.22.13.21</code></td>
+					<td><!-- Update 33.5: -->The Seven Crimes of Kullervo</td>
+					<td>7706746084885057576</td>
+				</tr>
+				<tr>
+					<td><code>2023.06.21.07.11</code></td>
+					<td><!-- Update 33.5: -->The Seven Crimes of Kullervo</td>
+					<td>1040973097284770411</td>
+				</tr>
+				<tr>
+					<td><code>2023.04.25.23.40</code></td>
+					<td><!-- Update 33: -->The Duviri Paradox</td>
+					<td>503269306359201928</td>
+				</tr>
+				<!-- 2084947150827453084 -->
+				<!-- 1591604753021484150 -->
+				<tr>
+					<td><code>2022.09.06.19.24</code></td>
+					<td><!-- Update 32: -->Veilbreaker</td>
+					<td>2433324865707385268</td>
+				</tr>
+				<!-- 7280281005656793707 -->
+				<!-- 8725083537193522917 -->
+				<tr>
+					<td><code>2022.04.29.12.53</code></td>
+					<td><!-- Update 31.5: -->Angels of the Zariman</td>
+					<td>4634493262513910961</td>
 				</tr>
 			</tbody>
 		</table>
