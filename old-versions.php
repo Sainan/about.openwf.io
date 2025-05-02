@@ -20,7 +20,11 @@
 			</thead>
 			<tbody>
 				<!-- 4212893560910494140 (38.5.0?) -->
-				<!-- 3864063200081954630 (38.0.0?) -->
+				<tr>
+					<td><code>2024.12.11.14.26</code></td>
+					<td>Early build of Warframe: 1999</td>
+					<td>3864063200081954630</td>
+				</tr>
 				<tr>
 					<td><code>2024.10.11.10.06</code></td>
 					<td>Koumei & the Five Fates: Hotfix 37.0.6</td>
