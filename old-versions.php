@@ -267,7 +267,13 @@
 					<td>Empyrean</td>
 					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
 				</tr>
-				<!-- 3078917755629993445 -->
+				<tr>
+					<td>3078917755629993445</td>
+					<td><code>2020.03.05.16.06</code></td>
+					<td>≈&nbsp;27.2.0</td>
+					<td>Empyrean</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
 				<tr>
 					<td>5383208407459190147</td>
 					<td><code>2019.12.13.15.04</code></td>
