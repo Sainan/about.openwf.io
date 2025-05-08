@@ -350,7 +350,13 @@
 					<td>Buried&nbsp;Debts</td>
 					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
 				</tr>
-				<!-- 4942488930993990244 -->
+				<tr>
+					<td>4942488930993990244</td>
+					<td><code>2019.03.15.18.11</code></td>
+					<td>≈&nbsp;24.5.1</td>
+					<td>Buried&nbsp;Debts</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
 				<!-- 4404971551504983924 -->
 				<tr>
 					<td>1904743723246597237</td>
