@@ -379,7 +379,13 @@
 					<td>Fortuna</td>
 					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
 				</tr>
-				<!-- 3725569727599851360 -->
+				<tr>
+					<td>3725569727599851360</td>
+					<td><code>2018.11.15.16.49</code></td>
+					<td>≈&nbsp;24.0.8</td>
+					<td>Fortuna</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
 				<!-- 8461211368258506784 -->
 				<tr>
 					<td>6046541448142309692</td>
