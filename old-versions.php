@@ -20,6 +20,7 @@
 				</tr>
 			</thead>
 			<tbody>
+				<!-- https://steamdb.info/depot/230411/manifests/ -->
 				<tr>
 					<td>4212893560910494140</td>
 					<td><code>2025.03.18.09.51</code></td>
@@ -386,7 +387,7 @@
 					<td>Fortuna</td>
 					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
 				</tr>
-				<!-- 8461211368258506784 -->
+				<!-- 8461211368258506784 is 2018.11.15.16.49 but needs Tools folder from another manifest + has a broken font. -->
 				<tr>
 					<td>6046541448142309692</td>
 					<td><code>2018.11.08.14.45</code></td>
@@ -394,9 +395,27 @@
 					<td>Fortuna</td>
 					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
 				</tr>
-				<!-- 8049567794324118250 -->
-				<!-- 1234607834806579897 -->
-				<!-- 677450530474051174 -->
+				<tr>
+					<td>8049567794324118250</td>
+					<td><code>2018.10.11.23.29</code></td>
+					<td>≈&nbsp;23.10.0</td>
+					<td>Chimera</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
+				<tr>
+					<td>1234607834806579897</td>
+					<td><code>2018.09.28.19.09</code></td>
+					<td>≈&nbsp;23.9.1</td>
+					<td>Mask&nbsp;of&nbsp;the&nbsp;Revenant</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
+				<tr>
+					<td>677450530474051174</td>
+					<td><code>2018.08.01.08.09</code></td>
+					<td>≈&nbsp;23.2.0</td>
+					<td>The&nbsp;Sacrifice</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
 				<tr>
 					<td>8058901711639962245</td>
 					<td><code>2018.06.14.23.21</code></td>
@@ -512,11 +531,23 @@
 					<td>The&nbsp;Glast&nbsp;Gambit</td>
 					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
 				</tr>
-				<!-- 2663512682334598162 -->
-				<!-- 4864838558963648894 -->
-				<!-- 4666421798085404101 -->
-				<!-- 6118281920152298389 -->
-				<!-- 8998041413872250076 -->
+				<!-- 2663512682334598162 is 2017.03.03.17.01, ~19.12.1, fails to start due to an assertion failure -->
+				<!-- 4864838558963648894 is 2017.03.02.14.59, ~19.12.0, fails to start due to an assertion failure -->
+				<tr>
+					<td>4666421798085404101</td>
+					<td><code>2016.12.21.19.13</code></td>
+					<td>≈&nbsp;19.5.0</td>
+					<td>The&nbsp;Glast&nbsp;Gambit</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
+				<!-- 6118281920152298389 only contains installscript.vdf -->
+				<tr>
+					<td>8998041413872250076</td>
+					<td><code>2016.12.16.14.33</code></td>
+					<td>≈&nbsp;19.4.1</td>
+					<td>The&nbsp;War&nbsp;Within</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
 				<!-- 6784000424578492584 is 2016.11.11.17.46, ~19.0.0, fails to start due to an assertion failure -->
 				<tr>
 					<td>7585839495921050946</td>
