@@ -30,7 +30,7 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 			<li>Now you can run <code>npm run start</code> to start the server anytime</li>
 		</ol>
 		<h2>Server Update</h2>
-		<p>Windows users can simply double-click the <code>UPDATE AND START SERVER.bat</code>, but otherwise the steps are pretty simple:</p>
+		<p>You can simply run the <code>UPDATE AND START SERVER</code> script for this, but otherwise the steps are pretty simple:</p>
 		<ol>
 			<li>Run <code>git pull</code> in the SpaceNinjaServer folder</li>
 			<li>(Optional) If you have the stripped assets, run <code>git pull</code> in the <code>static/data/0</code> folder</li>
