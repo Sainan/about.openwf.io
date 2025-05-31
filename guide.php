@@ -12,20 +12,6 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 <body data-bs-theme="dark">
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
-		<h2>Client Patch</h2>
-		<p>In order to connect to custom servers, the client needs to be patched, which the Boostrapper is for. To set it up, you can <a href="/supplementals/Bootstrapper%20Setup.ps1" download>use this powershell script</a> or follow these steps:</p>
-		<ul>
-			<li>Download <a href="/supplementals/client%20drop-in/<?=$dll_version;?>/dwmapi.dll" download>the boostrapper DLL (dwmapi.dll)</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</li>
-			<li>
-				For 38.6.0 and above, you will also need <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify</a> and then simply drop Warframe.x64.exe on top of sideloadify.
-				<ul>
-					<li>This is currently not needed on Linux as Wine/Proton always checks the game folder for dwmapi.dll.</li>
-				</ul>
-			</li>
-		</ul>
-		<p>With that done, you can double-click Warframe.x64.exe to start the game with OpenWF. Opening the game's launcher will revert it back to normal.</p>
-		<!-- <p>The bootstrapper is <a href="bootstrapper-manual" target="_blank">fully documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p> -->
-		<!-- <p><b>Next steps:</b> By default, the DLL redirects requests to localhost — meaning the same machine you're playing on — so you'll either need to set up a server or change the server_host to point to a different machine that's already got a server running.</p> -->
 		<h2>Server Prerequisites</h2>
 		<ul>
 			<li>Git (<a href="https://git-scm.com/downloads" target="_blank">Download</a>)</li>
@@ -52,6 +38,19 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 			<li>Run <code>npm run build</code> to build the server</li>
 			<li>Now you can use <code>npm run start</code> to start the server again</li>
 		</ol>
+		<h2>Client Patch</h2>
+		<p>In order to connect to custom servers, the client needs to be patched, which the Boostrapper is for. To set it up, you can <a href="/supplementals/Bootstrapper%20Setup.ps1" download>use this powershell script</a> or follow these steps:</p>
+		<ul>
+			<li>Download <a href="/supplementals/client%20drop-in/<?=$dll_version;?>/dwmapi.dll" download>the boostrapper DLL (dwmapi.dll)</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</li>
+			<li>
+				For 38.6.0 and above, you will also need <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify</a> and then simply drop Warframe.x64.exe on top of sideloadify.
+				<ul>
+					<li>This is currently not needed on Linux as Wine/Proton always checks the game folder for dwmapi.dll.</li>
+				</ul>
+			</li>
+		</ul>
+		<p>With that done, you can double-click Warframe.x64.exe to start the game with OpenWF. Opening the game's launcher will revert it back to normal.</p>
+		<p>The bootstrapper is <a href="bootstrapper-manual" target="_blank">fully documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p>
 		<h2>IRC Server</h2>
 		<p>In addition to SpaceNinjaServer, you can also set up an IRC server for the in-game chat:</p>
 		<ul>
