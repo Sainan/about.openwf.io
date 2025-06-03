@@ -19,7 +19,7 @@
 			<li>Open the DDS file inside of a hex editor like <a href="https://hexed.it/" target="_blank">HexEd.it</a> or <a href="https://mh-nexus.de/en/hxd/" target="_blank">HxD</a> and take note of the format, e.g. you will see the string <code>DXT1</code> or <code>DXT5</code> in the 6th row.</li>
 			<li>You are now free to modify the image however you want. Just take care that the file has the same name, dimensions/resolution, and format/encoding as seen before.</li>
 			<li>To build your assets, run <code>pluto build.pluto</code> within the warframe-cache-tools directory.</li>
-			<li>Finally, to get the assets into the game, you can copy the <code>content (managed)</code> folder from warframe-cache-tools into the OpenWF folder of your client. The Bootstrapper will automatically patch the game to use your modified content, and if you ever wanna stop using it, you can simply remove the client's <code>content (managed)</code> folder.</li>
+			<li>Finally, to get the assets into the game, you can copy the <code>Content Replacements</code> folder from warframe-cache-tools into the OpenWF folder of your client. The Bootstrapper will automatically patch the game to use your modified content, and if you ever wanna stop using it, you can simply remove the client's <code>Content Replacements</code> folder.</li>
 		</ol>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

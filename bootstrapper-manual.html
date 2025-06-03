@@ -75,8 +75,8 @@
 <body>
 	<h1>OpenWF Bootstrapper Manual</h1>
 	<p>While the main feature of the bootstrapper (dwmapi.dll, wtsapi32.dll, or version.dll) is to use a custom server with the game, it has other features as well.</p>
-	<h2>client_config.json</h2>
-	<p>The bootstrapper's configuration is in <code>OpenWF/client_config.json</code> relative to your game folder. It has the following fields:</p>
+	<h2>Client Config.json</h2>
+	<p>The bootstrapper's configuration is in <code>OpenWF/Client Config.json</code> relative to your game folder. It has the following fields:</p>
 	<ul>
 		<li><code>fallback_language</code> — If not empty, this language will be used when Warframe.x64.exe is invoked without a <code>language</code> command line argument.</li>
 		<li><code>fallback_graphicsDriver</code> — If not empty, this graphics driver will be used when Warframe.x64.exe is invoked without a <code>graphicsDriver</code> command line argument.</li>
@@ -132,7 +132,7 @@
 		<li>The IRC <code>USER</code> message is adjusted to contain <code>nonce=...</code> in the 'realname' field.</li>
 	</ul>
 	<h2>Metadata Patches</h2>
-	<p>Metadata Patches are loaded from <code>OpenWF/Metadata Patches.txt</code>, although you can also create a <code>OpenWF/Metadata Patches/</code> folder and any text file inside of that will be loaded as well.</p>
+	<p>Metadata Patches are loaded from text files in the <code>OpenWF/Metadata Patches/</code> folder.</p>
 	<p>They are generally parsed line by line, with roughly the following steps being taken for each line:</p>
 	<ol>
 		<li>If the line starts with <code>/</code>, a new patch for the given absolute path is started. If the line ends on <code>&</code>, the next line that also starts with <code>/</code> will be added to this patch instead of creating a new patch.</li>
