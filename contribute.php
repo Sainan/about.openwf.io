@@ -14,7 +14,7 @@
 		<p>Most OpenWF software has support for translations:</p>
 		<ul>
 			<li><a href="https://onlyg.it/OpenWF/SpaceNinjaServer/src/branch/main/static/webui/translations" target="_blank">SpaceNinjaServer WebUI</a></li>
-			<li><a href="https://onlyg.it/OpenWF/Translations/src/branch/main/client-webui" target="_blank">Bootstrapper WebUI</a></li>
+			<li><a href="https://onlyg.it/OpenWF/Translations/src/branch/main/bootstrapper" target="_blank">Bootstrapper WebUI</a></li>
 		</ul>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
