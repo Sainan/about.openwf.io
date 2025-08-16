@@ -493,7 +493,7 @@
 					<td><code>2017.11.16.17.34</code></td>
 					<td>≈&nbsp;22.2.4</td>
 					<td>Plains&nbsp;of&nbsp;Eidolon</td>
-					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. -->This version (and prior versions) requires an active voice chat session for audio.</td>
 				</tr>
 				<tr>
 					<td>4661126446448856114</td>
