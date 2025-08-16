@@ -16,6 +16,13 @@
 			<li><a href="https://onlyg.it/OpenWF/SpaceNinjaServer/src/branch/main/static/webui/translations" target="_blank">SpaceNinjaServer WebUI</a></li>
 			<li><a href="https://onlyg.it/OpenWF/Translations/src/branch/main/bootstrapper" target="_blank">Bootstrapper WebUI</a></li>
 		</ul>
+		<h2>Seeding</h2>
+		<p>We are looking into IPFS for censorship-resistance. You could help the project out by pinning some things to your own node(s):</p>
+		<ul>
+			<li>Bootstrapper Setup.exe v1.0.0: <code>ipfs pin add /ipfs/bafkreifedzhddsiz4tfxwkzuzu6722seqvzhp7fdxkvdd6ao3canjesyda</code></li>
+			<li>SpaceNinjaServer.git: <code>ipfs pin add /ipns/sns.openwf.io</code> (<a href="https://ipfs.io/ipns/k51qzi5uqu5diybf2prwdxnyiewvnjn5jshwiv5awoqrn9z5tfen8p31x15jk9/#repo=https%3A%2F%2Fipfs.io%2Fipns%2Fsns.openwf.io" target="_blank">gitview</a>, updated daily)</li>
+		</ul>
+		<p>Please note that IPNS names are resolved to their CID when pinning, so to account for updates, an hourly cronjob is recommended.</p>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
