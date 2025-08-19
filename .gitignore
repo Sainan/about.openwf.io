@@ -1,3 +1,6 @@
 supplementals/client drop-in
 supplementals/static data
 supplementals/IRC.zip
+
+build/
+dynstat.php
