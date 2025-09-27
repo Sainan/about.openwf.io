@@ -20,13 +20,10 @@
 		<h2>Seeding</h2>
 		<p>We are looking into IPFS for censorship-resistance. You could help the project out by pinning some things to your own node(s):</p>
 		<ul>
-			<li>Bootstrapper Setup.exe v1.0.0: <code>ipfs pin add /ipfs/bafkreifedzhddsiz4tfxwkzuzu6722seqvzhp7fdxkvdd6ao3canjesyda</code></li>
-		</ul>
-		<p>Also some of our more dynamic content, for which we recommend an hourly cronjob as IPNS names are resolved to their CID when pinning:</p>
-		<ul>
 			<li>OpenWF Website: <code>ipfs pin add /ipns/openwf.io</code></li>
 			<li>SpaceNinjaServer git mirror: <code>ipfs pin add /ipns/sns.openwf.io</code> (<a href="https://ipfs.io/ipns/k51qzi5uqu5diybf2prwdxnyiewvnjn5jshwiv5awoqrn9z5tfen8p31x15jk9/#repo=https%3A%2F%2Fipfs.io%2Fipns%2Fsns.openwf.io" target="_blank">gitview</a>)</li>
 		</ul>
+		<p>Note that IPNS names are resolved to their CID when pinning, so an hourly cronjob is recommended.</p>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	<script src="https://censorcanary.org/censorcanary.js" defer></script>

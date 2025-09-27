@@ -34,7 +34,7 @@
 					<td><code>2025.03.18.09.51</code></td>
 					<td>&lt;&nbsp;38.6.0</td>
 					<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
-					<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr><!-- 38.6.0 is the only version that needs sideloadify (on Windows, at least). The powershell script just does it for all versions, for now at least. --></td>
+					<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr>, Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a></td>
 				</tr>
 				<tr>
 					<td>4212893560910494140</td>
