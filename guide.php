@@ -39,7 +39,7 @@
 			<li>Download <a href="https://openwf.io/supplementals/client%20drop-in/latest_dll" target="_blank">the boostrapper DLL (wtsapi32.dll)</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in). On Linux, you may need to rename it to dwmapi.dll and/or use <code>WINEDLLOVERRIDE</code>.</li>
 		</ol>
 		<p>With that done, you can double-click Warframe.x64.exe to start the game with OpenWF. Opening the game's launcher will revert it back to normal.</p>
-		<p>The bootstrapper is <a href="bootstrapper-manual<?=(!empty($_DYNSTAT) ? ".html" : "");?>" target="_blank">documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p>
+		<p>The bootstrapper is <a href="bootstrapper-manual<?=(!empty($ext) ? ".html" : "");?>" target="_blank">documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p>
 		<h2>IRC Server</h2>
 		<p>In addition to SpaceNinjaServer, you can also set up an IRC server for the in-game chat:</p>
 		<ul>
