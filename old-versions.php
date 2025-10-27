@@ -10,7 +10,7 @@
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
 		<div id="main-view">
-			<h3>Bootstrapper + SpaceNinjaServer Suported Versions</h3>
+			<h3>Bootstrapper + SpaceNinjaServer Supported Versions</h3>
 			<p>The following is a list of game versions that have been verified to at least be able to login and play when using the Bootstrapper and SpaceNinjaServer.</p>
 			<table class="table table-sm">
 				<thead>
