@@ -4,7 +4,7 @@
 	<title>OpenWF Setup Guide</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="_assets/bootstrap.min.css">
 </head>
 <body data-bs-theme="dark">
 	<?php require "_components/navbar.php"; ?>
@@ -48,7 +48,7 @@
 			<li>InspIRCd — a well-known IRC server implementation used by DE themselves (albeit with unknown modifications). A pre-configured Windows copy of it can be downloaded <a href="https://openwf.io/supplementals/IRC.zip" download>here</a>.</li>
 		</ul>
 	</div>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-	<script src="https://censorcanary.org/censorcanary.js" defer></script>
+	<script src="_assets/bootstrap.bundle.min.js"></script>
+	<script src="_assets/censorcanary.min.js" defer></script>
 </body>
 </html>
