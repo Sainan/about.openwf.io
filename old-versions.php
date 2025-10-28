@@ -27,35 +27,35 @@
 						<td><code>2025.09.02.14.13</code></td>
 						<td>=&nbsp;39.1.3</td>
 						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr></td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
 						<td><a href="#39.1.3">Download</a></td>
 					</tr>
 					<tr>
 						<td><code>2025.06.23.11.39</code></td>
 						<td>&lt;&nbsp;39.0.0</td>
 						<td>Isleweaver</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr></td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
 						<td><a href="#8391191747297658560">Download</a></td>
 					</tr>
 					<tr>
 						<td><code>2025.03.18.09.51</code></td>
 						<td>&lt;&nbsp;38.6.0</td>
 						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr>, Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a></td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr>, Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a></td>
 						<td><a href="#6046892458385712496">Download</a></td>
 					</tr>
 					<tr>
 						<td><code>2025.03.18.09.51</code></td>
 						<td>&lt;&nbsp;38.5.0</td>
 						<td>Techrot&nbsp;Encore</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr></td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
 						<td><a href="#4212893560910494140">Download</a></td>
 					</tr>
 					<tr>
 						<td><code>2024.12.11.14.26</code></td>
 						<td>&lt;&nbsp;38.0.0</td>
 						<td>1999</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr></td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
 						<td><a href="#3864063200081954630">Download</a></td>
 					</tr>
 					<tr>
