@@ -64,7 +64,7 @@
 		<p>In order to connect to custom servers, the client needs to be patched, which is what the Boostrapper is for.</p>
 		<ul>
 			<li><b>Prerequisite:</b> Because this is a project about preservation, we do not support the latest versions immediately. Please see <a href="old-versions<?=$ext;?>" target="_blank">here</a> for supported versions and download instructions.</li>
-			<li><b>Setup:</b> Download <a href="https://openwf.io/supplementals/client%20drop-in/latest_dll" target="_blank">the Boostrapper DLL (wtsapi32.dll)</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in). On Linux, you may need to rename it to dwmapi.dll and/or use <code>WINEDLLOVERRIDE</code>.</li>
+			<li><b>Setup:</b> Download <a href="https://openwf.io/supplementals/client%20drop-in/download_latest" target="_blank">the Boostrapper DLL (wtsapi32.dll)</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in). On Linux, you may need to rename it to dwmapi.dll and/or use <code>WINEDLLOVERRIDE</code>.</li>
 			<li><b>Usage:</b> With the DLL in place, you can double-click Warframe.x64.exe to start the game with OpenWF.<!-- Opening the game's launcher will revert it back to normal. --></li>
 		</ul>
 		<p>The Bootstrapper is <a href="bootstrapper-manual<?=(!empty($ext) ? ".html" : "");?>" target="_blank">fully documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p>
