@@ -698,7 +698,13 @@
 						<td>Crashes when trying to revive<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td><a href="#7211838851606425341">Download</a></td>
 					</tr>
-					<!-- 5876704438298513797 is 2014.04.10.17.47 (~13.0.0), 'works' but everyone is A-posing, making enemies non-threats -->
+					<tr>
+						<td><code>2014.04.10.17.47</code></td>
+						<td>≈&nbsp;13.0.0</td>
+						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
+						<td>Works but everyone is A-posing, making enemies non-threats<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#5876704438298513797">Download</a></td>
+					</tr>
 					<!-- 3406168191948447048 is 2014.03.05.20.45, can't get past login screen due to script error -->
 					<!-- 7515523599342296232 is 2014.02.19.19.53, seems to crash -->
 					<!-- 4190426140757030330 is 2014.02.07.16.15 (~12.0.3), seems to crash -->
