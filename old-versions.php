@@ -501,7 +501,7 @@
 						<td><code>2017.11.16.17.34</code></td>
 						<td>≈&nbsp;22.2.4</td>
 						<td>Plains&nbsp;of&nbsp;Eidolon</td>
-						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. -->This version (and prior versions) requires an active voice chat session for audio.</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. -->This version and prior versions may require an active voice chat session for audio.</td>
 						<td><a href="#5869273198520287595">Download</a></td>
 					</tr>
 					<tr>
@@ -681,63 +681,211 @@
 						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
 						<td><a href="#6636116079410913663">Download</a></td>
 					</tr>
-					<!-- 4885795964507366541 -->
-					<!-- 7887393592947262939 -->
-					<!-- 8779732662024957928 -->
-					<!-- 7091405412400346572 -->
-					<!-- 7211838851606425341 -->
-					<!-- 5876704438298513797 -->
-					<!-- 3406168191948447048 -->
-					<!-- 7515523599342296232 -->
-					<!-- 4190426140757030330 -->
-					<!-- 585340885135755161 -->
-					<!-- 2135033526713381905 -->
-					<!-- 4839307268506097307 -->
-					<!-- 1764044531028780660 -->
-					<!-- 1734697414845714540 -->
-					<!-- 1806108333186250272 -->
-					<!-- 3366147248454027595 -->
-					<!-- 767517711548082020 -->
-					<!-- 647709821457915915 -->
+					<!-- 4885795964507366541 is 2014.09.24.13.39, needs tools from 2015.10.21.12.48, seems to crash -->
+					<!-- 7887393592947262939 is 2014.09.23.12.04, needs tools from 2015.10.21.12.48, seems to crash -->
+					<!-- 8779732662024957928 is 2014.08.28.13.17, needs tools from 2015.10.21.12.48, crashes after login -->
+					<tr>
+						<td><code>2014.07.21.18.38</code></td>
+						<td>≈&nbsp;14.0.0</td>
+						<td>The Mad Cephalon</td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><a href="#7091405412400346572">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2014.05.23.12.12</code></td>
+						<td>≈&nbsp;13.4.1</td>
+						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#7211838851606425341">Download</a></td>
+					</tr>
+					<!-- 5876704438298513797 is 2014.04.10.17.47 (~13.0.0), 'works' but everyone is A-posing, making enemies non-threats -->
+					<!-- 3406168191948447048 is 2014.03.05.20.45, can't get past login screen due to script error -->
+					<!-- 7515523599342296232 is 2014.02.19.19.53, seems to crash -->
+					<!-- 4190426140757030330 is 2014.02.07.16.15 (~12.0.3), seems to crash -->
+					<!-- 585340885135755161 is 2013.12.21.01.47, seems to crash -->
+					<!-- 2135033526713381905 is 2013.11.29.16.33 (~11.1.3), broken fonts but technically playable -->
+					<tr>
+						<td><code>2013.11.12.14.03</code></td>
+						<td>≈&nbsp;10.8.0</td>
+						<td>Shadows Of The Dead<!-- Login screen says "Open Beta - Update 10" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#4839307268506097307">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.10.11.17.01</code></td>
+						<td>≈&nbsp;10.3.3</td>
+						<td>Shadows Of The Dead<!-- Login screen says "Open Beta - Update 10" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#1764044531028780660">Download</a></td>
+					</tr>
+					<!-- 1734697414845714540 is 2013.09.24.17.38, seems to crash -->
+					<!-- 1806108333186250272 is 2013.08.14.11.28, seems to get stuck loading -->
+					<!-- 3366147248454027595 is 2013.07.15.20.46 (~9.1.2), asserts due to some missing flash stuff -->
+					<tr>
+						<td><code>2013.07.04.20.17</code></td>
+						<td>≈&nbsp;8.3.0</td>
+						<td>Rise of the Warlords<!-- Login screen says "Open Beta - Update 8" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#767517711548082020">Download</a></td>
+					</tr>
+					<!-- 647709821457915915 is 2013.06.07.23.44, has broken assets -->
 					<tr>
 						<td><code>2013.05.23.16.06</code></td>
 						<td>≈&nbsp;8.0.0</td>
-						<td>Rise of the Warlords</td>
+						<td>Rise of the Warlords<!-- Login screen says "Open Beta - Update 8" --></td>
 						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td><a href="#5108594067645371108">Download</a></td>
 					</tr>
-					<!-- 7689210280991293768 -->
-					<!-- 367921302756169619 -->
-					<!-- 5140912318581454574 -->
-					<!-- 1873918047633104541 -->
-					<!-- 609302931784914878 -->
-					<!-- 1333808825789667682 -->
-					<!-- 6812997867589219032 -->
-					<!-- 1214562332840994196 -->
-					<!-- 4151868779723562813 -->
-					<!-- 588705282697359018 -->
-					<!-- 3767535784967645478 -->
-					<!-- 6399786153404128119 -->
-					<!-- 5877621706072454395 -->
-					<!-- 6629234302933135021 -->
-					<!-- 1241849711849802633 -->
-					<!-- 1305013661316056540 -->
-					<!-- 7565171876923122883 -->
-					<!-- 8278491043607750104 -->
-					<!-- 6961091191944066345 -->
-					<!-- 8357063435845098593 -->
-					<!-- 3065430017475545834 -->
-					<!-- 6180757407260335433 -->
-					<!-- 1412521350878833822 -->
-					<!-- 5572824118589588358 -->
-					<!-- 8927238311553521114 -->
-					<!-- 1958670258248515033 -->
-					<!-- 9176710083987114410 -->
+					<!-- 7689210280991293768 is 2013.05.17.15.42, has a broken font/UI, can't even submit login -->
+					<!-- 367921302756169619 (according to WFClassic) is 2013.05.15.13.37 (~7.10.7), can't play due to script error -->
+					<!-- 5140912318581454574 (according to WFClassic) is 2013.05.14.10.33 (~7.10.6), can't play due to script error -->
+					<!-- 1873918047633104541 (according to WFClassic) is 2013.05.13.15.20 (~7.10.5), can't play due to script error -->
+					<!-- 609302931784914878 (according to WFClassic) is 2013.05.10.14.33 (~7.10.4), can't play due to script error -->
+					<!-- 1333808825789667682 (according to WFClassic) is 2013.05.09.14.56 (~7.10.3.5), can't play due to script error -->
+					<!-- 6812997867589219032 is 2013.05.09.10.18, can't play due to script error -->
+					<tr>
+						<td><code>2013.05.08.10.59</code></td>
+						<td>≈&nbsp;7.10.2</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#1214562332840994196">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.05.06.10.38</code></td>
+						<td>≈&nbsp;7.10.1</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#4151868779723562813">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.05.04.02.15</code></td>
+						<td>≈&nbsp;7.10.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#588705282697359018">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.05.03.18.06</code></td>
+						<td>≈&nbsp;7.10.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#3767535784967645478">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.04.26.17.24</code></td>
+						<td>≈&nbsp;7.9.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#6399786153404128119">Download</a></td>
+					</tr>
+					<!-- 5877621706072454395 is 2013.04.25.13.30, missing fonts + script errors -->
+					<tr>
+						<td><code>2013.04.24.11.45</code></td>
+						<td>≈&nbsp;7.8.1</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#6629234302933135021">Download</a></td>
+					</tr>
+					<!-- 1241849711849802633 is 2013.04.23.16.17, missing fonts + script errors -->
+					<tr>
+						<td><code>2013.04.19.17.49</code></td>
+						<td>≈&nbsp;7.8.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#1305013661316056540">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.04.19.15.46</code></td>
+						<td>≈&nbsp;7.8.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#7565171876923122883">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.04.15.14.48</code></td>
+						<td>≈&nbsp;7.7.4</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#8278491043607750104">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.04.12.12.05</code></td>
+						<td>≈&nbsp;7.7.3</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#6961091191944066345">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.04.05.12.20</code></td>
+						<td>≈&nbsp;7.7.2</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#8357063435845098593">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.04.04.10.09</code></td>
+						<td>≈&nbsp;7.7.1</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#3065430017475545834">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.04.03.14.47</code></td>
+						<td>≈&nbsp;7.7.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#6180757407260335433">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.04.01.16.24</code></td>
+						<td>≈&nbsp;7.6.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#1412521350878833822">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.03.28.17.01</code></td>
+						<td>≈&nbsp;7.5.1</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#5572824118589588358">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.03.27.17.06</code></td>
+						<td>≈&nbsp;7.4.1</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#8927238311553521114">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.03.27.09.43</code></td>
+						<td>≈&nbsp;7.4.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#1958670258248515033">Download</a></td>
+					</tr>
+					<tr>
+						<td><code>2013.03.25.11.45</code></td>
+						<td>≈&nbsp;7.3.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><a href="#9176710083987114410">Download</a></td>
+					</tr>
 				</tbody>
 			</table>
 			<h3>2013 Warframe</h3>
-			<p>There is a DLL + fork of SpaceNinjaServer that can be used to revisit 2013 Warframe. More information about this can be found <a href="https://discord.gg/PNNZ3asUuY">on our Discord</a>, specifically <a href="https://discord.com/channels/1108159019635462206/1280628166825873510/1280628233355923497">in this thread</a>.</p>
-			<p>Another project in this niche is <a href="https://github.com/mekael/WFClassic">Mekael's WFClassic</a>.</p>
+			<p>As you're revisiting the earliest versions, some things to note:</p>
+			<ul>
+				<li>Usage of a client patch (such as the Bootstrapper) is optional for versions before update 8 thanks to the <code>-webserver</code> argument.</li>
+				<li>
+					The main branch of SpaceNinjaServer may be missing features specific to these versions (PRs in this regard would be appreciated!), but there are alternatives:
+					<ul>
+						<li><a href="https://onlyg.it/OpenWF/SpaceNinjaServer/src/branch/janisslsm/2013.03.25.11.45/" target="_blank">The janisslsm/2013.03.25.11.45 branch of SpaceNinjaServer</a>. Discussion about this happens <a href="https://discord.com/channels/1108159019635462206/1280628166825873510/1280628233355923497" target="_blank">in this thread</a> of <a href="https://discord.gg/PNNZ3asUuY" target="_blank">our Discord</a>.</li>
+						<li><a href="https://github.com/mekael/WFClassic">Mekael's WFClassic</a>, a completely alternative server implementation in C#.</li>
+					</ul>
+				</li>
+			</ul>
+			<br>
 		</div>
 		<div id="depot-download-view" class="d-none">
 			<h3>Downloading <span class="version-name"></span></h3>
