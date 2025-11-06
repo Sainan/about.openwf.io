@@ -894,29 +894,34 @@
 			<br>
 		</div>
 		<div id="depot-download-view" class="d-none">
-			<h3>Downloading <span class="version-name"></span></h3>
-			<p>You will need:</p>
+			<h3>Downloading M:<span class="version-name"></span></h3>
+			<p>There are several ways to download Warframe's Steam depot at manifest version <span class="manifest-id"></span>:</p>
 			<ul>
-				<li>A Steam account with Warframe in its library</li>
-				<li><a href="https://github.com/SteamRE/DepotDownloader/releases" target="_blank">DepotDownloader</a></li>
-			</ul>
-			<p>Then, to download this version, simply run <code>DepotDownloader -app 230410 -depot 230411 -manifest <span class="manifest-id"></span> -username &lt;your steam username&gt; -remember-password</code>. Note that DepotDownloader may report errors; these are generally only temporary and it will try again.</p>
-		</div>
-		<div id="patch-download-view" class="d-none">
-			<h3>Downloading <span class="version-name"></span></h3>
-			<p>You will need:</p>
-			<ul>
-				<li>A Steam account with Warframe in its library</li>
-				<li><a href="https://github.com/SteamRE/DepotDownloader/releases" target="_blank">DepotDownloader</a></li>
-			</ul>
-			<p>With that sorted out:</p>
-			<ol>
 				<li>
-					Download the base version by running <code>DepotDownloader -app 230410 -depot 230411 -manifest <span class="manifest-id"></span> -username &lt;your steam username&gt; -remember-password</code>
+					You can use <a href="https://github.com/Sainan/steam-manifest-tools/releases" target="_blank">mango</a> like so: <code>mango download-manifest 230411 <span class="manifest-id"></span> && mango download-chunks 230411_<span class="manifest-id"></span>.manifest && mango install 230411_<span class="manifest-id"></span>.manifest</code>
 					<ul>
+						<li>The resulting installation will be stored in <code>install/230411/<span class="manifest-id"></span></code>. You may delete the <code>depot</code> folder after.</li>
+					</ul>
+				</li>
+				<li>
+					You can use <a href="https://github.com/SteamRE/DepotDownloader/releases" target="_blank">DepotDownloader</a> like so: <code>DepotDownloader -app 230410 -depot 230411 -manifest <span class="manifest-id"></span> -username &lt;your steam username&gt; -remember-password</code>
+					<ul>
+						<li>This requires a Steam account with Warframe in its library.</li>
 						<li>Note that DepotDownloader may report errors; these are generally only temporary and it will try again.</li>
 					</ul>
 				</li>
+				<li>
+					You can use <a href="steam://nav/console">Steam's console</a> with the following command: <code>download_depot 230410 230411 <span class="manifest-id"></span></code>
+					<ul>
+						<li>This requires a Steam account with Warframe in its library.</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div id="patch-download-view" class="d-none">
+			<h3>Downloading <span class="version-name"></span></h3>
+			<ol>
+				<li><a id="base-download" target="_blank">Download the base version (M:<span class="manifest-id"></span>)</a></li>
 				<li>
 					Download the update patch
 					<ul>
@@ -924,7 +929,7 @@
 						<li>Via BitTorrent v1 compatible software: <a href="magnet:?xt=urn:btih:04f15ff0082809b38804d2ccc6e2edadd6f40468&dn=39.1.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">Magnet</a></li>
 					</ul>
 				</li>
-				<li>Now you can replace your Warframe.x64.exe and place the OpenWF/Content folder which the Bootstrapper (version 0.11.13 and up) will pick up</li>
+				<li>Now you can replace your Warframe.x64.exe and place the OpenWF/Content folder which the Bootstrapper will pick up</li>
 			</ol>
 		</div>
 	</div>
@@ -942,9 +947,12 @@
 			{
 				if (hash == "39.1.3")
 				{
+					const manifestId = "8391191747297658560";
+
 					document.getElementById("patch-download-view").classList.remove("d-none");
+					document.getElementById("base-download").href = "#" + manifestId;
 					document.querySelectorAll(".version-name").forEach(x => x.textContent = hash);
-					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = "8391191747297658560");
+					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = manifestId);
 				}
 				else
 				{
