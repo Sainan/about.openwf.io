@@ -26,12 +26,6 @@ $path = strtok($_SERVER["REQUEST_URI"], '?');
 	</div>
 </nav>
 <script>
-	// Disable navbar links that point back to this page.
-	document.querySelectorAll(".navbar-nav .nav-link.active, .navbar-nav .dropdown-item.active").forEach(elm =>
-	{
-		elm.onclick = (event) => { event.preventDefault() };
-	});
-
 	// User-facing stuff really has no reason to be served over insecure HTTP.
 	if (location.host == "openwf.io" && location.protocol == "http:")
 	{
