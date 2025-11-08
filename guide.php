@@ -23,7 +23,7 @@
 			</ul>
 			<h2>Server Installation</h2>
 			<ol>
-				<li>Run <code>git clone https://openwf.io/SpaceNinjaServer.git</code> in a command prompt to download SpaceNinjaServer in the current working directory</li>
+				<li>Run <code>git clone https://openwf.io/SpaceNinjaServer.git</code> in a command prompt to download <a href="https://onlyg.it/OpenWF/SpaceNinjaServer" target="_blank">SpaceNinjaServer</a> in the current working directory</li>
 				<li>Open the SpaceNinjaServer folder</li>
 				<li>Copy config-vanilla.json to create a config.json</li>
 				<li>(Optional) Edit the config.json to match your MongoDB settings (if not default) and however else you would like to configure the server</li>
