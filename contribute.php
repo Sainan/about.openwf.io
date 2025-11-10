@@ -12,10 +12,10 @@
 		<h2>Code</h2>
 		<p>Code contributions would be most welcome, especially on SpaceNinjaServer, with <a href='https://onlyg.it/OpenWF/SpaceNinjaServer/issues' target='_blank'>many open issues</a>.</p>
 		<h2>Translations</h2>
-		<p>Most OpenWF software has support for translations:</p>
+		<p>You can help translate OpenWF software to non-English languages:</p>
 		<ul>
-			<li><a href="https://onlyg.it/OpenWF/SpaceNinjaServer/src/branch/main/static/webui/translations" target="_blank">SpaceNinjaServer WebUI</a></li>
-			<li><a href="https://onlyg.it/OpenWF/Translations/src/branch/main/bootstrapper" target="_blank">Bootstrapper WebUI</a></li>
+			<li><a href="https://onlyg.it/OpenWF/SpaceNinjaServer/src/branch/main/static/webui/translations" target="_blank">SpaceNinjaServer WebUI</a> (<a href="https://onlyg.it/OpenWF/SpaceNinjaServer/src/branch/main/CONTRIBUTING.md" target="_blank">Contributing</a>)</li>
+			<li><a href="https://onlyg.it/OpenWF/Translations" target="_blank">Bootstrapper</a></li>
 		</ul>
 		<h2>Seeding</h2>
 		<p>We are looking into IPFS for censorship-resistance. You could help the project out by pinning some things to your own node(s):</p>
