@@ -57,7 +57,7 @@
 						<td><abbr title="A full game installation that may not work with all configurations.">User installation</abbr></td>
 					</tr>
 					<tr id="6046892458385712496">
-						<td><code>2025.03.18.09.51</code></td>
+						<td><code>2025.05.20.10.18</code></td>
 						<td>&lt;&nbsp;38.6.0</td>
 						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
 						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr>, Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a></td>
