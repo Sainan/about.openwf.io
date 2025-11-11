@@ -1100,7 +1100,7 @@
 		<div id="dirty-download-view" class="d-none">
 			<h3>Downloading <span class="version-name"></span></h3>
 			<p>Please note that this is a full game installation provided by a user. It has been verified to launch with the defaults of English and DirectX 11, but it will likely not have the content required for other configurations.</p>
-			<p>The download it, you will need BitTorrent v1 compatible software: <a class="magnet" download>Magnet</a></p>
+			<p>To download it, you will need BitTorrent v1 compatible software: <a class="magnet" download>Magnet</a></p>
 		</div>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
