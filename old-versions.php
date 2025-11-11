@@ -174,7 +174,7 @@
 						<td>Abyss&nbsp;of&nbsp;Dagath</td>
 						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
 						<td><a href="#34.0.8">Download</a></td>
-						<td>Steam manifest</td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User installation</abbr></td>
 					</tr>
 					<tr id="4487452668036984689">
 						<td><code>2023.07.26.16.38</code></td>
