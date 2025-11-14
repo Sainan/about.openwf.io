@@ -1071,7 +1071,7 @@
 			<p>There are several ways to download Warframe's Steam depot at manifest version <span class="manifest-id"></span>:</p>
 			<ul>
 				<li>
-					You can use <a href="https://github.com/Sainan/steam-manifest-tools/releases" target="_blank">mango</a> like so: <code>mango download-manifest 230411 <span class="manifest-id"></span> && mango download-chunks 230411_<span class="manifest-id"></span>.manifest && mango install 230411_<span class="manifest-id"></span>.manifest</code>
+					You can use <a href="https://github.com/Sainan/steam-manifest-tools/releases" target="_blank">mango</a> like so: <code>mango download-chunks 230411 <span class="manifest-id"></span> && mango install 230411 <span class="manifest-id"></span></code>
 					<ul>
 						<li>The resulting installation will be stored in <code>install/230411/<span class="manifest-id"></span></code>. You may delete the <code>depot</code> folder after.</li>
 					</ul>
