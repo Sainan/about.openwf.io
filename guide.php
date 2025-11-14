@@ -12,7 +12,7 @@
 		<h2>Guide Settings</h2>
 		<div class="form-check mb-3">
 			<input class="form-check-input" type="checkbox" id="docker-toggle" />
-			<label class="form-check-label" for="docker-toggle">Use Docker</label>
+			<label class="form-check-label" for="docker-toggle">Docker (simpler to use, harder to understand)</label>
 		</div>
 		<div id="web-server-guide">
 			<h2>Server Prerequisites</h2>
