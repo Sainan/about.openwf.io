@@ -1087,6 +1087,7 @@
 					You can use <a href="steam://nav/console">Steam's console</a> with the following command: <code>download_depot 230410 230411 <span class="manifest-id"></span></code>
 					<ul>
 						<li>This requires a Steam account with Warframe in its library.</li>
+						<li>This will not replace an existing Steam installation.</li>
 					</ul>
 				</li>
 			</ul>
