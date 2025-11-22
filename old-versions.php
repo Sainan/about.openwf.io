@@ -509,7 +509,7 @@
 						<td><code>2018.11.29.15.55</code></td>
 						<td>≈&nbsp;24.1.2</td>
 						<td>Fortuna</td>
-						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Gear wheel is broken<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td><a href="#8040761247114336449">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
