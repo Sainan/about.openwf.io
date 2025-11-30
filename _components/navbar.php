@@ -15,8 +15,9 @@ $path = strtok($_SERVER["REQUEST_URI"], '?');
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item<?=(substr($path, 0, 6) == "/guide" ? " active" : ""); ?>" href="guide<?=$ext;?>">Setup</a></li>
 						<li><a class="dropdown-item<?=(substr($path, 0, 7) == "/import" ? " active" : ""); ?>" href="import<?=$ext;?>">Importing</a></li>
-						<li><a class="dropdown-item<?=(substr($path, 0, 25) == "/asset-replacements-guide" ? " active" : ""); ?>" href="asset-replacements-guide<?=$ext;?>">Asset Replacements</a></li>
 						<li><a class="dropdown-item<?=(substr($path, 0, 13) == "/old-versions" ? " active" : ""); ?>" href="old-versions<?=$ext;?>">Old Versions</a></li>
+						<li><a class="dropdown-item<?=(substr($path, 0, 14) == "/companion-app" ? " active" : ""); ?>" href="companion-app<?=$ext;?>">Companion App</a></li>
+						<li><a class="dropdown-item<?=(substr($path, 0, 25) == "/asset-replacements-guide" ? " active" : ""); ?>" href="asset-replacements-guide<?=$ext;?>">Asset Replacements</a></li>
 					</ul>
 				</li>
 				<li class="nav-item"><a class="nav-link<?=(substr($path, 0, 11) == "/contribute" ? " active" : ""); ?>" href="contribute<?=$ext;?>">Contribute</a></li>
