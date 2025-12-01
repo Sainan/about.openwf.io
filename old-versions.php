@@ -75,7 +75,7 @@
 						<td><code>2025.05.20.10.18</code></td>
 						<td>&lt;&nbsp;38.6.0</td>
 						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr>, Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a></td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr>; Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a></td>
 						<td><a href="#6046892458385712496">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
@@ -859,7 +859,7 @@
 						<td><code>2014.05.23.12.12</code></td>
 						<td>≈&nbsp;13.4.1</td>
 						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
-						<td>Crashes when trying to revive<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Crashes when trying to revive; won't boot if you last booted a recent verison<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td><a href="#7211838851606425341">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
