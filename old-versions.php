@@ -47,6 +47,14 @@
 						<td>Update patch</td>
 						<td><a href="#39.1.3">Download</a></td>
 					</tr>
+					<tr id="39.1.0" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:02000a8ab234e7d42a18fd650d1ef5dcebde75ba&dn=39.1.0&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-39.1.0/" data-cat-labels="magnet:?xt=urn:btih:a1cb7b0285974747502a3675db7e7e742ce9357a&dn=cat%20labels%20for%2039.1.0&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
+						<td><code>2025.08.26.09.49</code></td>
+						<td>=&nbsp;39.1.0</td>
+						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User installation</abbr></td>
+						<td><a href="#39.1.0">Download</a></td>
+					</tr>
 					<tr id="39.0.7" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5958ef3d9ebacd98ea447ddafef118297b35911&dn=39.0.7&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-39.0.7/" data-cat-labels="magnet:?xt=urn:btih:fa592a64597adecaf3f6c7faf4725f1693a8ec90&dn=cat%20labels%20for%2039.0.6%20and%2039.0.7&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
 						<td><code>2025.07.23.12.28</code></td>
 						<td>=&nbsp;39.0.7</td>
