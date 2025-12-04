@@ -87,7 +87,7 @@
 						<td>Steam manifest</td>
 						<td><a href="#6046892458385712496">Download</a></td>
 					</tr>
-					<tr id="38.5.11" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:de247af30068106d6cdb8cb1b01fccbf5bbcc84f&dn=38.5.11&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.5.11/" data-cat-labels="magnet:?xt=urn:btih:fa6915c393a7edc5f017bd5b62bfc9f77e15443b&dn=cat%20labels%20for%2038.5.11&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+					<tr id="38.5.11" data-langs="en,ru,uk" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:89183353a366d99d6bdac480155a283e0d78b634&dn=38.5.11%20%28en%2C%20ru%2C%20uk%2C%20dx11%2C%20dx12%29&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-38.5.11/" data-cat-labels="magnet:?xt=urn:btih:fa6915c393a7edc5f017bd5b62bfc9f77e15443b&dn=cat%20labels%20for%2038.5.11&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
 						<td><code>2025.04.15.15.16</code></td>
 						<td>=&nbsp;38.5.11</td>
 						<td>Techrot&nbsp;Encore</td>
@@ -1170,7 +1170,7 @@
 						document.querySelectorAll(".language-options").forEach(x => x.textContent = tr.getAttribute("data-langs").split(",").join(" or "));
 						document.querySelectorAll(".graphicsDriver-options").forEach(x => x.textContent = tr.getAttribute("data-drivers").split(",").join(" or "));
 
-						document.querySelector("#dirty-download-view .torrent").href = `supplementals/dirty builds/${hash}.torrent`;
+						document.querySelector("#dirty-download-view .torrent").href = `supplementals/dirty builds/${new URLSearchParams(new URL(magnet).search).get("dn")}.torrent`;
 
 						const catLabelsMagnet = tr.getAttribute("data-cat-labels");
 						if (catLabelsMagnet)
