@@ -39,7 +39,7 @@
 				</thead>
 				<tbody>
 					<!-- https://steamdb.info/depot/230411/manifests/ -->
-					<tr id="39.1.3" data-base-manifest="8391191747297658560" data-mega="t1ImwaQY#fova1j0G6u5RUhksghiYCLDkCP_a2oLge-FQScKh30w" data-magnet="magnet:?xt=urn:btih:04f15ff0082809b38804d2ccc6e2edadd6f40468&dn=39.1.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
+					<tr id="39.1.3" data-base-manifest="8391191747297658560" data-mega="https://mega.nz/file/t1ImwaQY#fova1j0G6u5RUhksghiYCLDkCP_a2oLge-FQScKh30w" data-magnet="magnet:?xt=urn:btih:04f15ff0082809b38804d2ccc6e2edadd6f40468&dn=39.1.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.09.02.14.13</code></td>
 						<td>=&nbsp;39.1.3</td>
 						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
@@ -1132,7 +1132,7 @@
 				<li>
 					Download the update patch
 					<ul>
-						<li><a href="https://mega.nz/file/t1ImwaQY#fova1j0G6u5RUhksghiYCLDkCP_a2oLge-FQScKh30w" target="_blank">From Mega</a></li>
+						<li><a id="mega" target="_blank">From Mega</a></li>
 						<li>Via BitTorrent v1 compatible software: <a class="magnet">Magnet</a></li>
 					</ul>
 				</li>
@@ -1188,6 +1188,7 @@
 						document.getElementById("patch-download-view").classList.remove("d-none");
 						document.getElementById("base-download").href = "#" + manifestId;
 						document.querySelectorAll(".manifest-id").forEach(x => x.textContent = manifestId);
+						document.getElementById("mega").href = tr.getAttribute("data-mega");
 					}
 					else
 					{
