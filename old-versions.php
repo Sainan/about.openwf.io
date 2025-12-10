@@ -39,6 +39,32 @@
 				</thead>
 				<tbody>
 					<!-- https://steamdb.info/depot/230411/manifests/ -->
+					<?php foreach ([
+							"2025.10.29.12.05" => "40.0.5.1",
+							"2025.10.28.13.00" => "40.0.5",
+							"2025.10.23.13.35" => "40.0.4",
+							"2025.10.21.11.10" => "40.0.3",
+							"2025.10.16.14.47" => "40.0.2",
+							"2025.10.15.14.12" => "40.0.1",
+							"2025.10.15.09.36" => "40.0.0",
+						] as $buildVersion => $gameVersion): ?>
+						<tr id="<?=$gameVersion;?>" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+							<td><code><?=$buildVersion;?></code></td>
+							<td>=&nbsp;<?=$gameVersion;?></td>
+							<td>The Vallis Undermind</td>
+							<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+							<td>Update patch</td>
+							<td><a href="#<?=$gameVersion;?>">Download</a></td>
+						</tr>
+					<?php endforeach; ?>
+					<tr id="4384985961440518177">
+						<td><code>2025.10.14.16.10</code></td>
+						<td>&lt;&nbsp;40.0.0</td>
+						<td>The Vallis Undermind</td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td>Steam manifest</td>
+						<td><a href="#4384985961440518177">Download</a></td>
+					</tr>
 					<tr id="39.1.3" data-base-manifest="8391191747297658560" data-mega="https://mega.nz/file/t1ImwaQY#fova1j0G6u5RUhksghiYCLDkCP_a2oLge-FQScKh30w" data-magnet="magnet:?xt=urn:btih:04f15ff0082809b38804d2ccc6e2edadd6f40468&dn=39.1.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.09.02.14.13</code></td>
 						<td>=&nbsp;39.1.3</td>
