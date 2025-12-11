@@ -109,7 +109,7 @@
 						<td><code>2025.05.20.10.18</code></td>
 						<td>&lt;&nbsp;38.6.0</td>
 						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr>; Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a></td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr><!-- ; Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
 						<td>Steam manifest</td>
 						<td><a href="#6046892458385712496">Download</a></td>
 					</tr>
