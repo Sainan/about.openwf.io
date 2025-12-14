@@ -51,7 +51,7 @@
 						<tr id="<?=$gameVersion;?>" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
 							<td><code><?=$buildVersion;?></code></td>
 							<td>=&nbsp;<?=$gameVersion;?></td>
-							<td>The Vallis Undermind</td>
+							<td>The&nbsp;Vallis&nbsp;Undermind</td>
 							<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
 							<td>Update patch</td>
 							<td><a href="#<?=$gameVersion;?>">Download</a></td>
@@ -60,7 +60,7 @@
 					<tr id="4384985961440518177">
 						<td><code>2025.10.14.16.10</code></td>
 						<td>&lt;&nbsp;40.0.0</td>
-						<td>The Vallis Undermind</td>
+						<td>The&nbsp;Vallis&nbsp;Undermind</td>
 						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
 						<td>Steam manifest</td>
 						<td><a href="#4384985961440518177">Download</a></td>
