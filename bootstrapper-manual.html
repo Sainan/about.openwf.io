@@ -110,7 +110,8 @@
 		<li><code>write_all_metadata_reads_to_ee_log</code> — If true, writes all metadata reads to EE.log. May degrade performance.</li>
 		<li><code>write_patched_metadata_reads_to_console</code> — If true, writes patched metadata reads to the console. May degrade performance.</li>
 		<li><code>write_patched_metadata_reads_to_ee_log</code> — If true, writes patched metadata reads to EE.log. May degrade performance.</li>
-		<li><code>client_http_port</code> — Defines the port of the Bootstrapper's web interface (documented below). Should be kept 6155 unless you have a really good reason for being a snowflake.</li>
+		<li><code>client_http_logging</code> — If true, writes requests to builtin HTTP server to the console.</li>
+		<li><code>client_http_port</code> — Defines the port of the builtin HTTP server. Used for the HTTP Interface and Content Management, documented below.</li>
 		<li><code>disable_overlay</code> — Can be used to disable the overlay, e.g. used to show "OpenWF @ &lt;server&gt;" before login. Default is false on Windows but true on Linux due to poor emulation under Wine.</li>
 	</ul>
 	<h2>HTTP Interface</h2>
@@ -118,7 +119,7 @@
 	<p>This web interface uses the game's language or <code>?lang=</code> query parameter to check for translations. The builtin translations are mirrored from <a href="https://onlyg.it/OpenWF/Translations">https://onlyg.it/OpenWF/Translations</a>. You can provide a <code>OpenWF/webui-dict.cat.txt</code> file to provide a custom work-in-progress translation.</p>
 	<p>Developers can also use the HTTP interface to interact with the Bootstrapper. In addition to commands (documented below), the following routes are available: <code>/ping</code>, <code>/save_all_metadata</code>, <code>/write_all_metadata_reads_to_console</code>, <code>/write_all_metadata_reads_to_ee_log</code>, <code>/write_patched_metadata_reads_to_console</code>, <code>/write_patched_metadata_reads_to_ee_log</code>, <code>/pause_always_stops_time</code>, <code>/server_host</code>, <code>/status</code>, <code>/toggle_console</code>, <code>/scripts</code>, <code>/start_script</code>, <code>/start_script_inline</code>, <code>/autostart_scripts</code>, <code>/add_autostart_script</code>, <code>/remove_autostart_script</code>, <code>/apply_hotfix</code>, <code>/version</code>, <code>/game_version</code>, <code>/memory</code>, <code>/get_effective_metadata</code>, <code>/get_effective_metadata_as_json</code></p>
 	<h2>Command Line Arguments</h2>
-	<p>The Bootstrapper adds the following command line arguments, which can be used to override their respective config fields: <code>owfServerHost</code>, <code>owfServerHttpPort</code>, <code>owfServerHttpsPort</code>, <code>owfClientHttpPort</code></p>
+	<p>The Bootstrapper adds the following command line arguments, which can be used to override their respective config fields: <code>owfServerHost</code>, <code>owfServerHttpPort</code>, <code>owfServerHttpsPort</code>, <code>owfClientHttpPort</code>, <code>owfAutologin</code> (0 or 1), <code>owfEmail</code>,  <code>owfPassword</code></p>
 	<h2>Tunables</h2>
 	<p>When connecting to a server, the Bootstrapper requests <code>/custom/tunables.json</code>. The resulting JSON object may provide the following fields:</p>
 	<ul>
