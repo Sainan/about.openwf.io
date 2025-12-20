@@ -1210,7 +1210,7 @@
 						<li>Via BitTorrent v1 compatible software: <a class="magnet">Magnet</a></li>
 					</ul>
 				</li>
-				<li>Now you can replace your Warframe.x64.exe and place the OpenWF/Content folder which the Bootstrapper will pick up</li>
+				<li>Now you can drop the update patch on top of the base version, replacing the EXE in the process<!-- The updates will take place once you start the game with the Bootstrapper. --></li>
 			</ol>
 		</div>
 		<div id="dirty-download-view" class="d-none">
