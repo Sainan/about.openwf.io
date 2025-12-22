@@ -9,7 +9,7 @@
 <body data-bs-theme="dark">
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
-		<p>This guide is an amalgamated shortcut of the <a href="web-server-setup<?=$ext;?>">web server</a> and <a href="chat-server-setup<?=$ext;?>">chat server</a> setup guides, which will give you a working system but will not explain why it works or how you use it.</p>
+		<p>This guide is an amalgamated shortcut of the <a href="web-server-setup<?=$ext;?>">web server</a>, <a href="chat-server-setup<?=$ext;?>">chat server</a>, and <a href="hub-server-setup<?=$ext;?>">hub server</a> setup guides, which will give you a working system but will not explain why it works or how you use it.</p>
 		<h2>Prerequisites</h2>
 		<ul>
 			<li>Git (<a href="https://git-scm.com/downloads" target="_blank">Download</a>)</li>

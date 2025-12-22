@@ -17,8 +17,8 @@
 		</ul>
 		<h2>Auto-Starting</h2>
 		<ul>
-			<li>You can provide a relative path to the IRC executable in SpaceNinjaServer's config.json under <code>ircExecutable</code> to have SpaceNinjaServer run it as a child process.</li>
-			<li>On Windows, you can put a shortcut to the executable in <code>%appdata%\Microsoft\Windows\Start Menu\Programs\Startup</code> to have it start when you log into Windows.</li>
+			<li>You can provide a relative path to the executable in SpaceNinjaServer's config.json under <code>ircExecutable</code> to have SpaceNinjaServer run it as a child process.</li>
+			<li>On Windows, you can put a shortcut to the executable in <code>%appdata%\Microsoft\Windows\Start Menu\Programs\Startup</code> to have it start when you log in to Windows.</li>
 		</ul>
 
 		<div class="row g-3 my-4">
@@ -26,6 +26,12 @@
 				<a href="import<?=$ext;?>" class="card p-3 text-decoration-none">
 					<small class="text-muted">Previous</small>
 					<div class="fw-bold text-primary">« Importing</div>
+				</a>
+			</div>
+			<div class="col-6">
+				<a href="hub-server-setup<?=$ext;?>" class="card p-3 text-decoration-none text-end">
+					<small class="text-muted">Next</small>
+					<div class="fw-bold text-primary">Hub Server Setup »</div>
 				</a>
 			</div>
 		</div>
