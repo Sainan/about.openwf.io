@@ -73,6 +73,14 @@
 						<td>Update&nbsp;patch</td>
 						<td><a href="#39.1.3">Download</a></td>
 					</tr>
+					<tr id="39.1.2" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:813024986e7baeae77bd9bc84a1aabff2f4b5792&dn=39.1.2%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-39.1.2/" data-cat-labels="magnet:?xt=urn:btih:a5497d2d79ae24abde60999ad4480a57c8ae7dc3&dn=cat%20labels%20for%2039.1.2&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+						<td><code>2025.06.26.13.57</code></td>
+						<td>=&nbsp;39.1.2</td>
+						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#39.1.2">Download</a></td>
+					</tr>
 					<tr id="39.1.0" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:02000a8ab234e7d42a18fd650d1ef5dcebde75ba&dn=39.1.0&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-39.1.0/" data-cat-labels="magnet:?xt=urn:btih:a1cb7b0285974747502a3675db7e7e742ce9357a&dn=cat%20labels%20for%2039.1.0&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
 						<td><code>2025.08.26.09.49</code></td>
 						<td>=&nbsp;39.1.0</td>
