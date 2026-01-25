@@ -51,7 +51,7 @@
 							<td><code><?=$buildVersion;?></code></td>
 							<td>=&nbsp;<?=$gameVersion;?></td>
 							<td>The&nbsp;Old&nbsp;Peace</td>
-							<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
 							<td>Update&nbsp;patch</td>
 							<td><a href="#<?=$gameVersion;?>">Download</a></td>
 						</tr>
@@ -60,7 +60,7 @@
 						<td><code>2025.12.11.08.31</code></td>
 						<td>&lt;&nbsp;41.0.2</td>
 						<td>The&nbsp;Old&nbsp;Peace</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#7186674829434135359">Download</a></td>
 					</tr>
@@ -72,7 +72,7 @@
 							<td><code><?=$buildVersion;?></code></td>
 							<td>=&nbsp;<?=$gameVersion;?></td>
 							<td>The&nbsp;Old&nbsp;Peace</td>
-							<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
 							<td>Update&nbsp;patch</td>
 							<td><a href="#<?=$gameVersion;?>">Download</a></td>
 						</tr>
@@ -81,7 +81,7 @@
 						<td><code>2025.12.09.14.18</code></td>
 						<td>&lt;&nbsp;41.0.0</td>
 						<td>The&nbsp;Old&nbsp;Peace</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#2095600306818101508">Download</a></td>
 					</tr>
@@ -98,7 +98,7 @@
 							<td><code><?=$buildVersion;?></code></td>
 							<td>=&nbsp;<?=$gameVersion;?></td>
 							<td>The&nbsp;Vallis&nbsp;Undermind</td>
-							<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+							<td></td>
 							<td>Update&nbsp;patch</td>
 							<td><a href="#<?=$gameVersion;?>">Download</a></td>
 						</tr>
@@ -107,7 +107,7 @@
 						<td><code>2025.10.14.16.10</code></td>
 						<td>&lt;&nbsp;40.0.0</td>
 						<td>The&nbsp;Vallis&nbsp;Undermind</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#4384985961440518177">Download</a></td>
 					</tr>
@@ -115,7 +115,7 @@
 						<td><code>2025.09.02.14.13</code></td>
 						<td>=&nbsp;39.1.3</td>
 						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td>Update&nbsp;patch</td>
 						<td><a href="#39.1.3">Download</a></td>
 					</tr>
@@ -123,7 +123,7 @@
 						<td><code>2025.06.26.13.57</code></td>
 						<td>=&nbsp;39.1.2</td>
 						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
 						<td><a href="#39.1.2">Download</a></td>
 					</tr>
@@ -131,7 +131,7 @@
 						<td><code>2025.08.26.09.49</code></td>
 						<td>=&nbsp;39.1.0</td>
 						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
 						<td><a href="#39.1.0">Download</a></td>
 					</tr>
@@ -139,7 +139,7 @@
 						<td><code>2025.07.23.12.28</code></td>
 						<td>=&nbsp;39.0.7</td>
 						<td>Isleweaver</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
 						<td><a href="#39.0.7">Download</a></td>
 					</tr>
@@ -147,7 +147,7 @@
 						<td><code>2025.06.23.11.39</code></td>
 						<td>&lt;&nbsp;39.0.0</td>
 						<td>Isleweaver</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#8391191747297658560">Download</a></td>
 					</tr>
@@ -155,7 +155,7 @@
 						<td><code>2025.05.23.11.28</code></td>
 						<td>=&nbsp;38.6.3</td>
 						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
 						<td><a href="#38.6.3">Download</a></td>
 					</tr>
@@ -163,7 +163,7 @@
 						<td><code>2025.05.20.10.18</code></td>
 						<td>&lt;&nbsp;38.6.0</td>
 						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr><!-- ; Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#6046892458385712496">Download</a></td>
 					</tr>
@@ -171,7 +171,7 @@
 						<td><code>2025.04.15.15.16</code></td>
 						<td>=&nbsp;38.5.11</td>
 						<td>Techrot&nbsp;Encore</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
 						<td><a href="#38.5.11">Download</a></td>
 					</tr>
@@ -179,7 +179,7 @@
 						<td><code>2025.03.27.08.48</code></td>
 						<td>=&nbsp;38.5.5</td>
 						<td>Techrot&nbsp;Encore</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
 						<td><a href="#38.5.5">Download</a></td>
 					</tr>
@@ -187,7 +187,7 @@
 						<td><code>2025.03.18.09.51</code></td>
 						<td>&lt;&nbsp;38.5.0</td>
 						<td>Techrot&nbsp;Encore</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#4212893560910494140">Download</a></td>
 					</tr>
@@ -195,7 +195,7 @@
 						<td><code>2025.02.19.16.14</code></td>
 						<td>=&nbsp;38.0.12</td>
 						<td>1999</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
 						<td><a href="#38.0.12">Download</a></td>
 					</tr>
@@ -203,7 +203,7 @@
 						<td><code>2025.02.13.12.01</code></td>
 						<td>=&nbsp;38.0.11</td>
 						<td>1999</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
 						<td><a href="#38.0.11">Download</a></td>
 					</tr>
@@ -211,7 +211,7 @@
 						<td><code>2025.01.13.14.52</code></td>
 						<td>=&nbsp;38.0.7</td>
 						<td>1999</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
 						<td><a href="#38.0.7">Download</a></td>
 					</tr>
@@ -219,7 +219,7 @@
 						<td><code>2024.12.11.14.26</code></td>
 						<td>&lt;&nbsp;38.0.0</td>
 						<td>1999</td>
-						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#3864063200081954630">Download</a></td>
 					</tr>
