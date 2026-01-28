@@ -9,25 +9,10 @@
 <body data-bs-theme="dark">
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
-		<p><abbr title="NAT Relay Server">NRS</abbr> is used to exchange presence and session information, which is needed to establish squads. Unlike other server infrastructure, there is currently no self-hostable NRS server due to abuse concerns. However, a <abbr title="Proxying is currently not implemented, so people behind strict NAT will not be able to establish peer-to-peer connections with each other.">partial</abbr> NRS reimplementation for versions 35.5.0 - 40.0.x is currently hosted publicly. This guide will explain how to configure SpaceNinjaServer to instruct your clients to connect to it.</p>
-		<h2>Without a Hub Server</h2>
-		<p>If you don't use or care about having a <a href="hub-server-setup<?=$ext;?>">hub server</a>, the configuration is quite simple:</p>
+		<p><abbr title="NAT Relay Server">NRS</abbr> is used to exchange presence and session information, which is needed to establish squads. Unlike other server infrastructure, there is currently no self-hostable NRS server due to abuse concerns. However, a <abbr title="Proxying is currently not implemented, so people behind strict NAT will not be able to establish peer-to-peer connections with each other.">partial</abbr> NRS reimplementation for versions 35.5.0 - 40.0.x is currently hosted publicly. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
 		<ul>
 			<li>Set <code>"nrsAddress"</code> to <code>"nrs.source.wf"</code></li>
 			<li>Set <code>"dtls"</code> to <code>99</code></li>
-		</ul>
-		<h2>With a Hub Server</h2>
-		<p>There is a slight complication here because we cannot configure DTLS separately for HUB and NRS: The NRS server requires DTLS, but the HUB server does not support it. To work around this, we will enable DTLS but ask the Bootstrapper to proxy HUB traffic over localhost:</p>
-		<ul>
-			<li>Set <code>"nrsAddress"</code> to <code>"nrs.source.wf"</code></li>
-			<li>Set <code>"dtls"</code> to <code>99</code></li>
-			<li>Set <code>"hubAddress"</code> to <code>"127.0.0.1:6951"</code></li>
-			<li>
-				Set <code>"udpProxyUpstream"</code> (under <code>"tunables"</code>) to <code>"%THIS_MACHINE%:6952"</code>
-				<ul>
-					<li>Note that <code>%THIS_MACHINE%</code> will automatically be substituted by SpaceNinjaServer</li>
-				</ul>
-			</li>
 		</ul>
 
 		<div class="row g-3 my-4">
