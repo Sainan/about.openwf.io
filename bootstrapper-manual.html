@@ -88,6 +88,7 @@
 		<li><code>server_host</code> — The hostname or IP address to redirect game traffic to.</li>
 		<li><code>http_port</code> — The port to use for HTTP traffic. This should match the HTTP port configured on the server.</li>
 		<li><code>https_port</code> — The port to use for HTTPS traffic. This should match the HTTPS port configured on the server.</li>
+		<li><code>secure_connections</code> — Ensures the server connection is secure by using TLS with PKI certificate validation.</li>
 		<li><code>autologin</code> — Uses the provided credentials to automatically login on startup. If another instance is logged in on the same account, it will be forcefully logged out.</li>
 		<li><code>autologin_email</code></li>
 		<li><code>autologin_password</code> — The whirlpool hash of the password to use for autologin. You can simply enter your password and it will automatically be hashed and overwritten.</li>
@@ -112,7 +113,8 @@
 		<li><code>write_patched_metadata_reads_to_ee_log</code> — If true, writes patched metadata reads to EE.log. May degrade performance.</li>
 		<li><code>client_http_logging</code> — If true, writes requests to builtin HTTP server to the console.</li>
 		<li><code>client_http_port</code> — Defines the port of the builtin HTTP server. Used for the HTTP Interface and Content Management, documented below.</li>
-		<li><code>disable_overlay</code> — Can be used to disable the overlay, e.g. used to show "OpenWF @ &lt;server&gt;" before login. Default is false on Windows but true on Linux due to poor emulation under Wine.</li>
+		<li><code>disable_overlay</code> — Can be used to disable the overlay, e.g. used to show "OpenWF @ &lt;server&gt;" before login. Default is false on Windows but true on Linux.</li>
+		<li><code>overlay_compatibility_mode</code> — If true, renders the overlay in a more crude way. Default is false on Windows but true on Linux.</li>
 	</ul>
 	<h2>HTTP Interface</h2>
 	<p>While the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to modify some of the above options, access additional features like teleportation, and use scripts.</p>
@@ -120,6 +122,19 @@
 	<p>Developers can also use the HTTP interface to interact with the Bootstrapper. In addition to commands (documented below), the following routes are available: <code>/ping</code>, <code>/save_all_metadata</code>, <code>/write_all_metadata_reads_to_console</code>, <code>/write_all_metadata_reads_to_ee_log</code>, <code>/write_patched_metadata_reads_to_console</code>, <code>/write_patched_metadata_reads_to_ee_log</code>, <code>/pause_always_stops_time</code>, <code>/server_host</code>, <code>/status</code>, <code>/toggle_console</code>, <code>/scripts</code>, <code>/start_script</code>, <code>/start_script_inline</code>, <code>/autostart_scripts</code>, <code>/add_autostart_script</code>, <code>/remove_autostart_script</code>, <code>/apply_hotfix</code>, <code>/version</code>, <code>/game_version</code>, <code>/memory</code>, <code>/get_effective_metadata</code>, <code>/get_effective_metadata_as_json</code></p>
 	<h2>Command Line Arguments</h2>
 	<p>The Bootstrapper adds the following command line arguments, which can be used to override their respective config fields: <code>owfServerHost</code>, <code>owfServerHttpPort</code>, <code>owfServerHttpsPort</code>, <code>owfClientHttpPort</code>, <code>owfAutologin</code> (0 or 1), <code>owfEmail</code>,  <code>owfPassword</code></p>
+	<h2>Version Compatibility</h2>
+	<p>The Bootstapper generally works in all versions, but certain additional features only support specific versions (for now):</p>
+	<ul>
+		<li>Label Replacements: &gt;= U23</li>
+		<li>Metadata Patches: &gt;= U35.5</li>
+		<li>Scripting: &gt;= U33.6</li>
+		<li>Forced Profile Dir: &gt;= U35.5</li>
+		<li>High Damage Numbers Patch: &gt;= U36</li>
+		<li>Pause Always Stops Time: &gt;= U37</li>
+		<li>IRC Authentication: &lt;= U15 and &gt;= U33.6</li>
+		<li>Disable XP-based Level Cap: &gt;= U35.5</li>
+		<li>Overlay: &gt;= U33.6</li>
+	</ul>
 	<h2>Tunables</h2>
 	<p>When connecting to a server, the Bootstrapper requests <code>/custom/tunables.json</code>. The resulting JSON object may provide the following fields:</p>
 	<ul>
@@ -140,11 +155,12 @@
 		<li>login.php, worldState.php, hubInstances, & hub requests have the extra query parameter <code>buildLabel</code> to indicate the client's buildLabel.</li>
 		<li>login.php requests also have an extra <code>clientMod</code> parameter indicating the Bootstrapper's name and version. If Metadata Patches are in use, <code>metadataPatchesInUse=1</code> is added as well.</li>
 		<li>inventory.php & missionInventoryUpdate.php requests have the extra query parameter <code>xpBasedLevelCapDisabled</code> to indicate that the client has been patched to accept any PlayerLevel and doesn't need XPInfo to match.</li>
-		<li>The IRC <code>USER</code> message is adjusted to contain <code>nonce=...</code> in the 'realname' field.</li>
+		<li>The IRC <code>USER</code> message 'realname' field is changed to <code>nonce=...</code>, or <code>token=...</code> if <code>secure_connections</code> is true.</li>
 	</ul>
 	<p>And the other way around:</p>
 	<ul>
 		<li>login.php responses can contain 2 JSON objects separated by a tab (<code>"\t"</code>) in which case the first one is the login response and the second one is tunables.</li>
+		<li>hub responses can start with <code>udp_proxy_upstream</code> instead of <code>hub</code> in which case the <code>udp_proxy_upstream</code> tunable will be updated and the client will connect to HUB via <code>127.0.0.1:6951</code>.</li>
 	</ul>
 	<h2>Label Replacements</h2>
 	<p>Label Replacements are loaded by instantiating the <code>OpenWF/Label Replacements.pluto</code> script. You can modify this script but by default it loads replacements from <code>OpenWF/Label Replacements.cat.txt</code>. As implied by the extension, it uses the <a href="https://github.com/calamity-inc/Soup/blob/senpai/docs/user/cat.md" target="_blank">CaT</a> format. Note that nested nodes are ignored.</p>
