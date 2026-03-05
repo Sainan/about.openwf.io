@@ -11,7 +11,7 @@
 	<div class="container mt-3">
 		<p><abbr title="NAT Relay Server">NRS</abbr> is used to exchange presence and session information, which is needed to establish squads. Unlike other server infrastructure, there is currently no self-hostable NRS server due to abuse concerns. However, <abbr title="Proxying is currently not implemented, so people behind strict NAT will not be able to establish peer-to-peer connections with each other.">partial</abbr> NRS reimplementations are hosted publicly.</p>
 		<h3>o-nrs</h3>
-		<p>This instance supports 35.5.0 - 41.0.x. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
+		<p>This instance supports 35.5.0 - 40.0.5.1. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
 		<ul>
 			<li>Set <code>"nrsAddress"</code> to <code>"o-nrs.source.wf"</code></li>
 			<li>Set <code>"dtls"</code> to <code>99</code></li>
