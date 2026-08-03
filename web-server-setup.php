@@ -29,7 +29,7 @@
 					<li>Linux: <code>cp config-vanilla.json config.json</code></li>
 				</ul>
 			</li>
-			<li>(Optional) If you have a GB of free space, you might want to download stripped assets such as <abbr title="Ability videos show a brief clip of an ability in action. They can be seen by hovering over an ability in the Arsenal, Codex, etc.">ability videos</abbr> so the client can request them on-demand: Run <code>cd static/data && git clone https://openwf.io/0.git && cd ../..</code></li>
+			<li>(Optional) If you have a GB of free space, you might want to download stripped assets such as <abbr title="Ability videos show a brief clip of an ability in action. They can be seen by hovering over an ability in the Arsenal, Codex, etc.">ability videos</abbr> so the client can request them on-demand: Run <code>cd static/data && git clone https://openwf.io/stripped-assets.git && cd ../..</code></li>
 			<li>Run <code>npm install --omit=dev --omit=optional</code> to install library dependencies</li>
 			<li>Now you can run <code>npm run raw</code> to start the server anytime</li>
 		</ol>
